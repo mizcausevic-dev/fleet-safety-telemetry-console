@@ -1,0 +1,42 @@
+{
+  "asOf": "2026-06-05T20:00:00Z",
+  "fleet": "autonomous yard and delivery robots",
+  "assets": [
+    {
+      "unitId": "YARD-17",
+      "mission": "warehouse transfer",
+      "sensorDriftPct": 8.4,
+      "manualOverrides": 7,
+      "nearMissEvents": 2,
+      "telemetryGapMinutes": 14,
+      "batteryThermalEvents": 1,
+      "softwareVersion": "2.8.4",
+      "owner": "Fleet safety",
+      "nextAction": "Pull YARD-17 from autonomous lane until lidar calibration is repeated."
+    },
+    {
+      "unitId": "SIDEWALK-09",
+      "mission": "last-mile route",
+      "sensorDriftPct": 3.1,
+      "manualOverrides": 2,
+      "nearMissEvents": 0,
+      "telemetryGapMinutes": 5,
+      "batteryThermalEvents": 0,
+      "softwareVersion": "2.8.4",
+      "owner": "Route operations",
+      "nextAction": "Keep on watch; verify route map freshness after next deployment."
+    },
+    {
+      "unitId": "FORK-22",
+      "mission": "loading dock assist",
+      "sensorDriftPct": 5.9,
+      "manualOverrides": 5,
+      "nearMissEvents": 1,
+      "telemetryGapMinutes": 22,
+      "batteryThermalEvents": 2,
+      "softwareVersion": "2.7.9",
+      "owner": "Safety systems",
+      "nextAction": "Block deployment until telemetry gaps and thermal events are explained."
+    }
+  ]
+}
